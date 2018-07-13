@@ -2,7 +2,7 @@
     "name": "kk-vscode",
     "displayName": "kk-vscode",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "hailongz",
     "engines": {
         "vscode": "^1.25.0"
