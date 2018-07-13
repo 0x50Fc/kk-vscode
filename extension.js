@@ -43,7 +43,7 @@ function activate(context) {
             v.show(true);
         } else if (platform == "win32") {
             var v = vscode.window.createTerminal("kk-cli:" + path.basename(dir));
-            v.sendText("set PATH=" + path.join(context.extensionPath, "bin", "drawin") + ";%PATH%", true);
+            v.sendText("set PATH=" + path.join(context.extensionPath, "bin", "win32") + ";%PATH%", true);
             v.sendText("cd " + dir, true);
             v.sendText("kk-cli", true);
             v.show(true);
